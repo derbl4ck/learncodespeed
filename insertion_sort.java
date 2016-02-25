@@ -7,7 +7,7 @@ public class insertion_sort {
 	public static void main(String[] args) {
 		int Array[] = new int[]{6,40,70,55,2,9,54,34,22,78,65,245};
 		 
-		System.out.println("This is the Array Before Bubble Sort");
+		System.out.println("This is the Array Before Insertion Sort");
 		 
 		for(int i=0; i < Array.length; i++) {
 			System.out.print(Array[i] + " ");
@@ -17,7 +17,7 @@ public class insertion_sort {
 		insertionSort(Array);
 
 		System.out.println("");
-		System.out.println("Array After Bubble Sort");
+		System.out.println("Array After Insertion Sort");
 		
 		for(int i=0; i < Array.length; i++) {
 			System.out.print(Array[i] + " ");
