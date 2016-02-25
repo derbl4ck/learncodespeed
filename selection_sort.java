@@ -11,7 +11,7 @@ public class selection_sort {
 		 
 		for(int i=0; i < Array.length; i++) {
 			System.out.print(Array[i] + " ");
-			}
+		}
 		
 		// sort the array using selection sort algorithm
 		selectionSort(Array);
